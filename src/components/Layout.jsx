@@ -1,7 +1,7 @@
 import { Outlet, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { AppShell, Navbar } from '@mantine/core'
-import Navigation from './Navigation'
+import Navigation from './Navigation.jsx'
 import { useAuth } from '../context/AuthContext'
 
 function Layout() {

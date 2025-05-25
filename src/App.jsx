@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AppShell } from '@mantine/core'
-import Layout from './components/Layout'
-import Login from './pages/Login'
+import Layout from './components/Layout.jsx'
+import Login from './pages/Login.jsx'
 import Bots from './pages/Bots'
 import Tasks from './pages/Tasks'
 import Builds from './pages/Builds'
@@ -26,5 +26,3 @@ function App() {
     </BrowserRouter>
   )
 }
-
-export default App
