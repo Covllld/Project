@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js"
+    "run": "node app.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,17 @@
     "express-session": "^1.17.3",
     "js-confuser": "^1.5.4",
     "mongoose": "^6.8.1",
-    "pkg": "^5.8.0"
+    "pkg": "^5.8.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "@mantine/core": "^7.3.2",
+    "@mantine/hooks": "^7.3.2",
+    "@tabler/icons-react": "^2.44.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
   }
 }
